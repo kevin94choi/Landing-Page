@@ -1,0 +1,142 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header section */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    background-color: #1F2937;
+}
+
+.header-title {
+    font-size: 24px;
+    color: #F9FAF8;
+    flex-shrink: 0;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Body */
+
+.main {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+.left {
+    text-align: left;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+
+}
+
+button {
+    font-size: 16px;
+    color: white;
+    background-color: #3882F6;
+    border-radius:  10px;
+    border: none;
+    padding: 10px 22px;
+}
+
+.chalkboard img {
+    height: auto;
+    width: 400px;
+    margin-left: 60px;
+
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+}
+
+/* Learning Types */
+
+.Learning-Types {
+    background-color: #E5E7EB;
+    text-align: center;
+}
+
+.Four-Skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 20px;
+}
+
+ .Skills img {
+    height: 100px;
+    width: 150px;
+    border-radius: 20px;
+    border: solid #3882F6 5px;
+}
+
+/*Quote*/
+
+.Quote-container {
+    background-color: #abacad;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    padding: 70px 150px;
+}
+
+.Quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+.Nelson {
+    font-size: 24px;
+    text-align: right;
+    padding-top: 20px;
+}
+
+/* Footer*/
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
